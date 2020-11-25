@@ -1,0 +1,94 @@
+body {
+  background-color: #eeeded;
+  color: black;
+  font-family: 'Domine', serif;
+  font-weight: 600;
+}
+h1 {
+  color: #16697A;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 100;
+  letter-spacing: 10px;
+  font-size: 60px;
+}
+h2 {
+  color: #ffa62b;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+  font-size: 70px;
+}
+a:hover {
+  color: red;
+}
+
+/* custom design with class */
+
+.container {
+  width: 1000px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-design {
+  background: white ;
+  padding: 60px;
+  margin: 40px;
+  box-shadow:  0px 10px 30px gray;
+  border-radius: 10px
+}
+#logo {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.img-circle {
+   border-radius: 50%;
+}
+
+.img-bordered {
+  border: 3px solid black;
+}
+.element-design {
+  width: 200px;
+}
+
+.list-inline{
+
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+
+  display: inline;
+  padding: 10px
+}
+
+.list-inline i {
+  font-size: 70px:;
+  color: #16697A
+}
